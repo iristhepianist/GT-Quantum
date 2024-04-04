@@ -1,0 +1,18 @@
+{
+	x: -0.5d,
+	y: 6.5d,
+	dependencies: [
+		"546dec9b"
+	],
+	tasks: [{
+		uid: "0ab1b428",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_plate",
+			Damage: 287s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

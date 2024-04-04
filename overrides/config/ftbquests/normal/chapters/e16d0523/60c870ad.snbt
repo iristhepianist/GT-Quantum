@@ -1,0 +1,63 @@
+{
+	title: "The Moon",
+	icon: {
+		id: "galacticraftcore:basic_block_moon",
+		Damage: 3s,
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 15.5d,
+	y: 0.0d,
+	description: "BEWARE! SOLAR RADIATION!",
+	text: [
+		"Now that you're here, i suggest opening up a small base. Why are you here? Meteorite Iron. you need it to get to mars and engage in gaming."
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "d77174a6",
+		type: "dimension",
+		dim: -28
+	}],
+	rewards: [{
+		uid: "ed99bb03",
+		type: "item",
+		item: {
+			id: "galacticraftcore:oxygen_tank_med_full",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "0e296ee3",
+		type: "item",
+		item: {
+			id: "galacticraftcore:distributor",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "1af167b1",
+		type: "item",
+		item: {
+			id: "industrialrenewal:battery_lithium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "20696ac0",
+		type: "item",
+		item: {
+			id: "industrialrenewal:ind_battery_bank",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

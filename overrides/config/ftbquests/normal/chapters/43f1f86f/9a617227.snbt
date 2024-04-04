@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 8.0d,
+	description: "Economy be like:",
+	text: [
+		"trade for this from a Shyre Archer in Shyrelands dimension. used to summon Craxxeus. Use on a Craxxeus Altar."
+	],
+	dependencies: [
+		"e98e93f3",
+		"50a66bc0"
+	],
+	tasks: [{
+		uid: "2ee0962b",
+		type: "item",
+		items: [{
+			id: "aoa3:ancient_ring",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

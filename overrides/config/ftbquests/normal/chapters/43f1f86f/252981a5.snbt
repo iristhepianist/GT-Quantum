@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	text: [
+		"some chunks are Ore chunks, which means that they contain a specific ore vein (e.g magnetite for iron) according to my limited knowledge, the dust on the surface corresponds with what stuff you're gonna find in the ore chunk."
+	],
+	dependencies: [
+		"ca02d54b"
+	],
+	tasks: [{
+		uid: "ddda4d1b",
+		type: "checkmark",
+		title: "Ore Tips"
+	}]
+}

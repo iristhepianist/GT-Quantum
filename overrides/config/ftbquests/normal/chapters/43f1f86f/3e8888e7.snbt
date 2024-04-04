@@ -1,0 +1,82 @@
+{
+	title: "Steam Machines 2",
+	x: 0.0d,
+	y: 2.0d,
+	description: "big, steamy, machines (ok ill stop)",
+	text: [
+		"Congrats, you have got steam machines! now you can truly embrace the industrial revolution. You can make plates, compressed stuff, etc."
+	],
+	dependencies: [
+		"c1aaf952"
+	],
+	tasks: [{
+		uid: "f6224359",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 7s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "69400e78",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 9s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "e8675ae0",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 13s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "58de483e",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 11s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "80894aa7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f80dd5b4",
+		type: "item",
+		item: {
+			id: "aoa3:heart_fruit",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "df59909d",
+		type: "item",
+		item: {
+			id: "aoa3:ancient_rock",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 20
+	}]
+}

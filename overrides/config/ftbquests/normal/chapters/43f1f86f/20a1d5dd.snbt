@@ -1,0 +1,28 @@
+{
+	title: "Bronze",
+	x: 1.0d,
+	y: 1.0d,
+	description: "getting steamy it seems",
+	text: [
+		"You can start by getting yourself some flint and stone and making a Mortar. Grinding down some copper and tin will give you Bronze dust. use this to make steam machine hulls, and begin the steam age."
+	],
+	dependencies: [
+		"ca02d54b"
+	],
+	tasks: [{
+		uid: "8291ec58",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_dust",
+			Damage: 260s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8d6bfe48",
+		type: "xp",
+		xp: 100
+	}]
+}

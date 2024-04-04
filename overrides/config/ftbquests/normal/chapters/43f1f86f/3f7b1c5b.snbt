@@ -1,0 +1,57 @@
+{
+	title: "Wrought Iron",
+	x: 2.5d,
+	y: -1.5d,
+	description: "why inconvenience?",
+	text: [
+		"Wrought Iron is the base for most of the modded items in this pack. Most of the Steam Age stuff requires it. To make it, simply smelt Iron Nuggets in a furnace to acquire Wrought Iron Nuggets. Combine them to make an ingot."
+	],
+	tasks: [{
+		uid: "631b7d01",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_nugget",
+			Damage: 335s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "d9adb06e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_ingot",
+			Damage: 335s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3917016a",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "1593d217",
+		type: "item",
+		item: {
+			id: "moreplanets:cooked_cheese_beef",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "a8bd1210",
+		type: "xp",
+		xp: 100
+	}]
+}

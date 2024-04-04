@@ -1,0 +1,42 @@
+{
+	title: "Alloys",
+	x: 0.0d,
+	y: 2.5d,
+	description: "(GregTech Moment.)",
+	text: [
+		"To progress further you will need to make alloys out of nickel. these are used for the EBF."
+	],
+	dependencies: [
+		"9211b2cf"
+	],
+	tasks: [{
+		uid: "b22d72ef",
+		type: "item",
+		title: "Nickel",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotNickel"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "ingotNickel"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "68a0d29e",
+		type: "item",
+		item: {
+			id: "hbm:canned_tube",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

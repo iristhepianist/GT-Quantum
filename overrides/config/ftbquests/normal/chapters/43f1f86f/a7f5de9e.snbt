@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	dependencies: [
+		"9ad0d8c6"
+	],
+	tasks: [{
+		uid: "4be9ea4c",
+		type: "item",
+		items: [{
+			id: "mahoutsukai:powdered_emerald",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "85f4e162",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

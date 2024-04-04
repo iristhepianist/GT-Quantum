@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: -1.5d,
+	description: "tinker's moment",
+	text: [
+		"for slightly more midgame players, you will have an optional recipe for Seared Bricks by which you can craft them using Firebrick and Concrete."
+	],
+	tasks: [{
+		uid: "a5cdcc8c",
+		type: "item",
+		items: [{
+			id: "tconstruct:materials",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

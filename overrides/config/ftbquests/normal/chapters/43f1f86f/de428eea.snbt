@@ -1,0 +1,52 @@
+{
+	title: "LV Time",
+	x: 3.5d,
+	y: 7.5d,
+	description: "ooo electronics",
+	text: [
+		"Now that you've made yourself some circuit boards using the Craxxeus statue, you should start the second age: The Electronic Age. but you'll first need to actually MAKE the circuits. Hella incovenient. You are gonna need resistors, whicha are basically just copper, slime. and coal, and Vacuum Tubes which are basically copper and steel. Not too hard."
+	],
+	dependencies: [
+		"d64c1ca1"
+	],
+	tasks: [{
+		uid: "01cd811e",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 401s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aebf96a8",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "7f5b3ca7",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "e94a8fa6",
+		type: "item",
+		item: {
+			id: "extrautils2:luxsaber",
+			Damage: 2s,
+			tag: {
+				Energy: 40000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

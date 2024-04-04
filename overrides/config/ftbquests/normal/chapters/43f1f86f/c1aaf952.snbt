@@ -1,0 +1,65 @@
+{
+	title: "Steam Machines",
+	x: 0.0d,
+	y: 1.0d,
+	description: "Greg is getting steamy",
+	text: [
+		"Use fluid pipes to bring steam from the Boiler into the steam machines. Don't step on the pipes, they're hot! also make sure not to leave the pipe ends uncovered, or they will blow out steam. You can use any type of boiler, liquid fuel or solid fuel."
+	],
+	dependencies: [
+		"950bf07f",
+		"20a1d5dd"
+	],
+	tasks: [{
+		uid: "6c496a90",
+		type: "item",
+		items: [{
+			id: "gregtech:steam_casing",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "7f6391d8",
+		type: "item",
+		items: [{
+			id: "gregtech:steam_casing",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "4aceb88f",
+		type: "item",
+		title: "Any Boiler",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "gregtech:machine",
+			Damage: 5s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "gregtech:machine",
+			Damage: 3s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "886c98b4",
+		type: "xp",
+		xp: 100
+	}]
+}

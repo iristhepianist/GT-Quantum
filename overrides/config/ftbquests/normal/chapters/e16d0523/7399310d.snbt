@@ -1,0 +1,77 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	text: [
+		"Galacticraft time! for MV, you will have to travel to Mars to acquire the schematic for the Astrominer. This is required for the MV circuit boards."
+	],
+	dependencies: [
+		"a22f0f83"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "bc150ffa",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:machine2",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "1e97d891",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:machine",
+			Damage: 12s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e5f3ed19",
+		type: "item",
+		item: {
+			id: "harvestcraft:heartybreakfastitem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 12
+	},
+	{
+		uid: "17d0f21e",
+		type: "item",
+		item: {
+			id: "hbm:can_bepis",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "315416c7",
+		type: "item",
+		item: {
+			id: "gregtech:meta_dust",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "2529b70b",
+		type: "item",
+		item: {
+			id: "hbm:heart_piece",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: 0.0d,
+	y: 12.678571428571416d,
+	description: "random thingies",
+	text: [
+		"Vault-Tec recommends Time In A Bottle, to speed up your blast furnace when your mom is calling you for dinner but you want to get some sweet, sweet steel."
+	],
+	dependencies: [
+		"ee128a0b",
+		"d14bc0d8"
+	],
+	tasks: [{
+		uid: "5c998104",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6d617d0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6005f181",
+		type: "item",
+		item: {
+			id: "hbm:canned_chinese",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	}]
+}

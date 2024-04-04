@@ -1,0 +1,86 @@
+{
+	title: "Advent Of Ascension",
+	x: 0.0d,
+	y: 4.5d,
+	description: "The Biggest RPG mod that every 7 year old knows",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e8888e7"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ad73b753",
+		type: "item",
+		items: [{
+			id: "aoa3:worn_book",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7446bb37",
+		type: "item",
+		items: [{
+			id: "aoa3:ancient_rock",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		count: 18L
+	},
+	{
+		uid: "b141cc64",
+		type: "item",
+		title: "Runes",
+		items: [{
+			id: "aoa3:carved_rune_reality",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "aoa3:carved_rune_direction",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "aoa3:carved_rune_power",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "aoa3:carved_rune_travel",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		{
+			id: "aoa3:carved_rune_space",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dd4d7394",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "abd5a8f4",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

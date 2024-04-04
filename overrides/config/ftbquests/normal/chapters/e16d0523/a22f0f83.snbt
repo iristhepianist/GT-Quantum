@@ -1,0 +1,18 @@
+{
+	x: 9.0d,
+	y: 0.0d,
+	dependencies: [
+		"bbc77350"
+	],
+	tasks: [{
+		uid: "c6384ac6",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_ingot",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,74 @@
+{
+	title: "Hero",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "speedsterheroes:ring",
+			tag: {
+				ItemInventory: [{
+					Slot: 0,
+					id: "speedsterheroes:comic_flash_helmet",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 1,
+					id: "speedsterheroes:comic_flash_chest",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 2,
+					id: "speedsterheroes:comic_flash_legs",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 3,
+					id: "speedsterheroes:comic_flash_boots",
+					Count: 1b,
+					Damage: 0s
+				}],
+				SpeedsterType: "speedsterheroes:comic_flash"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		item: {
+			id: "speedsterheroes:ring",
+			tag: {
+				ItemInventory: [{
+					Slot: 0,
+					id: "speedsterheroes:cw_future_flash_helmet",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 1,
+					id: "speedsterheroes:cw_future_flash_chest",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 2,
+					id: "speedsterheroes:cw_future_flash_legs",
+					Count: 1b,
+					Damage: 0s
+				},
+				{
+					Slot: 3,
+					id: "speedsterheroes:cw_future_flash_boots",
+					Count: 1b,
+					Damage: 0s
+				}],
+				SpeedsterType: "speedsterheroes:cw_future_flash"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Ore Prospecting",
+	x: 1.5d,
+	y: 14.0d,
+	description: "basically xray",
+	text: [
+		"You can use this on your GregTech terminal by going to the appstore to download the ore prospector app. this is basically a free radar satellite, it will tell you location of most ores and ore veins."
+	],
+	dependencies: [
+		"ee128a0b"
+	],
+	tasks: [{
+		uid: "6d2866f3",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 232s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ed7fe301",
+		type: "xp",
+		xp: 100
+	}]
+}

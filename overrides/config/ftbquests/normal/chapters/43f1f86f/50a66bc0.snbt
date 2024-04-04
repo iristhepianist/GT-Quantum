@@ -1,0 +1,39 @@
+{
+	title: "Dimensions",
+	x: 0.0d,
+	y: 5.942857142857143d,
+	description: "Not this again",
+	text: [
+		"to begin AoA, you need to build a portal. The shape for the portal is like a nether portal, just one block wider and longer. The worn book should tell you that. use the Carved Rune Of Power in the centre of the bottom row, and the rest can be placed anywhere besides the corners. Also remember to fill in the corners. Each dimension has a specific challenge attached to it, you can see what you need to do in the Blank Realmstone when you rightclick it."
+	],
+	dependencies: [
+		"b8be9972"
+	],
+	tasks: [{
+		uid: "3e278902",
+		type: "item",
+		items: [{
+			id: "aoa3:blank_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5adc4e2",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7295a5c7",
+		type: "item",
+		item: {
+			id: "aoa3:sapphire_pickaxe",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

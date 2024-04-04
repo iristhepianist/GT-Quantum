@@ -1,0 +1,35 @@
+{
+	title: "Surviving",
+	x: -9.5d,
+	y: -1.5d,
+	description: "RLcraft flashbacks",
+	text: [
+		"this pack contains Tough As Nails, and to survive you need to drink water. Make purified water and drink it to refill your thirst. Basically just smelt a water bottle."
+	],
+	tasks: [{
+		uid: "5085a054",
+		type: "item",
+		items: [{
+			id: "toughasnails:purified_water_bottle",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9adba41c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d9ea18d7",
+		type: "item",
+		item: {
+			id: "toughasnails:canteen",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

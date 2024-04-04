@@ -1,0 +1,14 @@
+{
+	title: "Visit The Nether",
+	x: -2.0d,
+	y: 3.5d,
+	description: "Hell.",
+	text: [
+		"remember, when you are doing dimension challenges, always have a blank realmstone in your inventory."
+	],
+	tasks: [{
+		uid: "95c04d0a",
+		type: "dimension",
+		dim: -1
+	}]
+}

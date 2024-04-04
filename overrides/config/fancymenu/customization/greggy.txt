@@ -1,0 +1,260 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  minimummcversion = 1.12.2
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/slideshows/fdsd.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-right
+  x = -750
+  action = movebutton
+  y = 225
+}
+
+customization {
+  identifier = %id=400322%
+  width = 119
+  action = resizebutton
+  height = 129
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/slideshows/dark-grunge-texture.jpg
+  backgroundnormal = config/fancymenu/slideshows/dark-grunge-texture.jpg
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = You have friends?
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-right
+  x = -843
+  action = movebutton
+  y = 146
+}
+
+customization {
+  identifier = %id=400382%
+  width = 80
+  action = resizebutton
+  height = 14
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/slideshows/metal-plate-texture.jpg
+  backgroundnormal = config/fancymenu/slideshows/metal-plate-texture.jpg
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-right
+  x = -843
+  action = movebutton
+  y = 122
+}
+
+customization {
+  identifier = %id=502382%
+  width = 88
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = Quit
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/slideshows/metal-plate-texture.jpg
+  backgroundnormal = config/fancymenu/slideshows/metal-plate-texture.jpg
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = mid-left
+  x = 103
+  action = movebutton
+  y = 122
+}
+
+customization {
+  identifier = %id=376382%
+  width = 121
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundnormal = config/fancymenu/slideshows/metal-plate-texture.jpg
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-left
+  x = 11
+  action = movebutton
+  y = -104
+}
+
+customization {
+  identifier = %id=400298%
+  width = 212
+  action = resizebutton
+  height = 81
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/slideshows/images/2024-03-18_11.34.25.png
+  backgroundnormal = config/fancymenu/slideshows/dark-grunge-texture.jpg
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = Thrive or die...
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-right
+  x = -843
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=400346%
+  width = 88
+  action = resizebutton
+  height = 129
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/slideshows/dark-grunge-texture.jpg
+  backgroundnormal = config/fancymenu/slideshows/dark-grunge-texture.jpg
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = for the love of god, don't add more...
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-right
+  x = -842
+  action = movebutton
+  y = 166
+}
+
+customization {
+  identifier = %id=376346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/slideshows/metal-plate-texture.jpg
+  backgroundnormal = config/fancymenu/slideshows/metal-plate-texture.jpg
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  text_border = 0
+  case_mode = lower
+  source_mode = direct
+  line_spacing = 1
+  x = 383
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8c2bd4b1-c7fd-4c8c-a8dd-3bf4b0f764a21710749345891
+  y = 140
+  alignment = right
+  base_color = #151515
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = #151515
+  x = 11
+  width = 229
+  actionid = 38104f25-03bd-4f6c-99d5-51a80210261d1710750628353
+  action = addshape
+  y = 113
+  height = 15
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.7
+  source = Pack Contributors and Authors:%n%Frosteco, EnderDanWie, iristhepianist, Bl00dbane%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 11
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fd894c5c-c253-4207-a486-9acb90a618b81710750911743
+  y = 435
+  alignment = left
+  height = 40
+}
+

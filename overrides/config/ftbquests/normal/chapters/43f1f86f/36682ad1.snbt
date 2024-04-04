@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 14.0d,
+	text: [
+		"- world keeps on resetting to peaceful after restart, no known fix"
+	],
+	dependencies: [
+		"ee128a0b"
+	],
+	tasks: [{
+		uid: "d6c0619f",
+		type: "checkmark",
+		title: "Bugs Known so far:"
+	}]
+}

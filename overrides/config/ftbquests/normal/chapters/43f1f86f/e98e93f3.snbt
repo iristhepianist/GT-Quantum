@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 7.0d,
+	description: "progression go brr",
+	text: [
+		"in order to advance past steam age, you will need Circuit Boards. For these, you will NEED to kill the boss Craxxeus and obtain his statue. "
+	],
+	dependencies: [
+		"5458f180",
+		"c4c48b55",
+		"ed171cec",
+		"32b92b1c"
+	],
+	tasks: [{
+		uid: "0c14a53d",
+		type: "item",
+		items: [{
+			id: "aoa3:shyrelands_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

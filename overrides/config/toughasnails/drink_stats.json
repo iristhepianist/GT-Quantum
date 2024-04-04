@@ -1,0 +1,29 @@
+[
+  {
+    "item": {
+      "name": "minecraft:milk_bucket",
+      "metadata": 0
+    },
+    "thirst": 12,
+    "hydration": 0.8,
+    "poisonChance": 0.3
+  }
+  ,{
+    "item": {
+      "name": "minecraft:potion",
+      "metadata": 0
+    },
+    "thirst": 4,
+    "hydration": 0.3,
+    "poisonChance": 1.0
+  }
+  ,{
+    "item": {
+      "name": "toughasnails:purified_water_bottle",
+      "metadata": 0
+    },
+    "thirst": 12,
+    "hydration": 0.6,
+    "poisonChance": 0.0
+  }
+]

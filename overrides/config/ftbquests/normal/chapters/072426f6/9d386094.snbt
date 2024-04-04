@@ -1,0 +1,39 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"welcome to GT: Fallout!",
+		"start by progressing through the Steam Age."
+	],
+	tasks: [{
+		uid: "bfdcd3bf",
+		type: "checkmark",
+		title: "Welcome!"
+	}],
+	rewards: [{
+		uid: "5c0ed2cf",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "1a015e46",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "5e13d43c",
+		type: "item",
+		item: {
+			id: "cyclicmagic:storage_bag",
+			tag: {},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

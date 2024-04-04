@@ -1,0 +1,184 @@
+{
+	title: "Tools",
+	x: 0.0d,
+	y: -1.5d,
+	description: "hammer goes brr",
+	text: [
+		"To make plates and other essential stuff, you need these tools."
+	],
+	dependencies: [
+		"f2252fbd"
+	],
+	tasks: [{
+		uid: "948f0c72",
+		type: "item",
+		title: "Screwdriver",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolScrewdriver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolScrewdriver"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7d67463",
+		type: "item",
+		title: "Hammer",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolHardHammer"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolHardHammer"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d4603458",
+		type: "item",
+		title: "File",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any craftingToolFile"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "craftingToolFile"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a9868d2",
+		type: "item",
+		title: "Mortar",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolMortar"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolMortar"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		consume_items: false,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6fed8ec1",
+		type: "item",
+		title: "Knife",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolKnife"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolKnife"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e870cb1a",
+		type: "item",
+		title: "Wrench",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolWrench"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolWrench"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e661768",
+		type: "item",
+		title: "Saw",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any toolSaw"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolSaw"
+				},
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c754545d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "9f46c239",
+		type: "item",
+		item: {
+			id: "aoa3:sour_candy",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	}]
+}

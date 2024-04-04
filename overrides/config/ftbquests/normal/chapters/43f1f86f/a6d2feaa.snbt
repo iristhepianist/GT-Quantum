@@ -1,0 +1,66 @@
+{
+	title: "AoA Materials",
+	x: 0.0d,
+	y: 14.0d,
+	text: [
+		"Most overworld and nether AoA materials are way better than diamond. i 100% recommend you get them as fast as possible."
+	],
+	dependencies: [
+		"ee128a0b"
+	],
+	tasks: [{
+		uid: "85ae31b1",
+		type: "item",
+		items: [{
+			id: "aoa3:jade",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "6797c4b5",
+		type: "item",
+		items: [{
+			id: "aoa3:sapphire",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "b104a7ee",
+		type: "item",
+		items: [{
+			id: "aoa3:limonite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "c23f4e68",
+		type: "item",
+		items: [{
+			id: "aoa3:rosite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "1fa9bcb9",
+		type: "item",
+		items: [{
+			id: "aoa3:emberstone_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7eef9182",
+		type: "xp",
+		xp: 100
+	}]
+}

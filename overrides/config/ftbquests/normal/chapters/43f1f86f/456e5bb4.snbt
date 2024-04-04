@@ -1,0 +1,26 @@
+{
+	x: -1.5d,
+	y: 14.0d,
+	description: "infinite water",
+	text: [
+		"use this to get earlygame inf water instead of those accursed pumps"
+	],
+	dependencies: [
+		"ee128a0b"
+	],
+	tasks: [{
+		uid: "af4117aa",
+		type: "item",
+		items: [{
+			id: "cookingforblockheads:sink",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0fb0deee",
+		type: "xp",
+		xp: 100
+	}]
+}

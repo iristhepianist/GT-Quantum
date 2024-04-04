@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"92748298"
+	],
+	tasks: [{
+		uid: "a2acec83",
+		type: "item",
+		items: [{
+			id: "mahoutsukai:mortar_and_pestle",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c476458b",
+		type: "xp",
+		xp: 100
+	}]
+}
