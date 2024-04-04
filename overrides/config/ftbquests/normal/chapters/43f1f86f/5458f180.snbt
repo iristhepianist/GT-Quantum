@@ -1,0 +1,34 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	text: [
+		"Find it in the Greckon dimension."
+	],
+	dependencies: [
+		"d553c9f7"
+	],
+	tasks: [{
+		uid: "5e8d2c28",
+		type: "item",
+		items: [{
+			id: "aoa3:haunted_flower",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a312ae15",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "lyon",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

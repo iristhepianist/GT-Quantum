@@ -1,0 +1,94 @@
+{
+	x: 2.5d,
+	y: 7.5d,
+	text: [
+		"Use the statue to make some Circuit Boards. Boom! you're in electronic age now. Congrats."
+	],
+	dependencies: [
+		"e98e93f3",
+		"9a617227"
+	],
+	tasks: [{
+		uid: "2a7eb868",
+		type: "kill",
+		title: "Kill Craexxeus, The Ancient Of War",
+		icon: {
+			id: "aoa3:shyrelands_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "aoa3:craexxeus",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c760c40d",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e3843ad7",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "4494307d",
+		type: "loot",
+		icon: {
+			id: "lucraftcore:injection",
+			tag: {
+				Injection: "speedsterheroes:speedforce"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		table: 1
+	},
+	{
+		uid: "f4594da7",
+		type: "item",
+		item: {
+			id: "aoa3:ancient_ring",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "e73f8e38",
+		type: "item",
+		item: {
+			id: "aoa3:runandor_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "7f44a8ec",
+		type: "item",
+		item: {
+			id: "aoa3:lunalus_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "7a2249fb",
+		type: "item",
+		item: {
+			id: "aoa3:borean_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

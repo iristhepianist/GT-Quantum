@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"b02d0cb8"
+	],
+	tasks: [{
+		uid: "146ebff1",
+		type: "item",
+		items: [{
+			id: "vampirism:hunter_table",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "50372970",
+		type: "xp",
+		xp: 100
+	}]
+}

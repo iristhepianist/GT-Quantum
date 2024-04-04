@@ -1,0 +1,23 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"9ad0d8c6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "d401c1b7",
+		type: "item",
+		items: [{
+			id: "mahoutsukai:powdered_quartz",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d5ec8500",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

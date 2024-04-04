@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: 3.5d,
+	description: "it's sticky, i guess?",
+	text: [
+		"smelt some slimeballs in a furnace, then use your preferred type of extractor ( preferably steam ) to extract the raw pulp."
+	],
+	dependencies: [
+		"ca02d54b"
+	],
+	tasks: [{
+		uid: "90d14b8c",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 438s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5f1ba9d2",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

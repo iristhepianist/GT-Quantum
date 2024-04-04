@@ -1,0 +1,38 @@
+{
+	title: "Steam Age",
+	x: 0.0d,
+	y: -6.0d,
+	description: "gregtech progression.",
+	text: [
+		"Gregtech's first tier of progression is the Steam Age. Start by gathering bronze and making a Coke Oven to make Creosote Oil needed for steam power. To complete this age, you will need to have killed the boss known as Craxxeus and use his statue to craft some Circuit Boards. then using those you are able to create your first circuit."
+	],
+	size: 4.0d,
+	tasks: [{
+		uid: "635716cd",
+		type: "checkmark",
+		title: "STEAM AGE",
+		icon: {
+			id: "gregtech:machine",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "0e39fdbd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "e8b9b136",
+		type: "item",
+		item: {
+			id: "galacticraftcore:food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 15
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 2.5d,
+	y: 4.5d,
+	text: [
+		"Find some Bloodstone ore in the Abyss dimension."
+	],
+	dependencies: [
+		"6c704710"
+	],
+	tasks: [{
+		uid: "c98c16bf",
+		type: "item",
+		items: [{
+			id: "aoa3:bloodstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "23370c1e",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "baronyte",
+				Amount: 1000
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 11.321428571428562d,
+	tasks: [{
+		uid: "d14bc0d8",
+		type: "checkmark",
+		title: "Tips And Tricks"
+	}],
+	rewards: [{
+		uid: "b7a717cd",
+		type: "xp",
+		xp: 10
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: -2.0d,
+	y: 6.5d,
+	text: [
+		"Summon the boss Shadowlord, while the potion effect Night Vision is active. use a Book Of Shadows on a Shadow Platform to summon it."
+	],
+	dependencies: [
+		"d553c9f7"
+	],
+	tasks: [{
+		uid: "ce6e6b97",
+		type: "item",
+		items: [{
+			id: "aoa3:dustopia_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8998487e",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "8a20e289",
+		type: "xp",
+		xp: 100
+	}]
+}

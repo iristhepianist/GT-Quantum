@@ -1,0 +1,33 @@
+{
+	x: 3.5d,
+	y: 2.5d,
+	description: "go to hell and back to get some yellow powder..",
+	text: [
+		"mine some sulfur ore in the nether and smelt to get some dust."
+	],
+	dependencies: [
+		"ca02d54b",
+		"3e8dede7"
+	],
+	tasks: [{
+		uid: "67443a41",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_dust",
+			Damage: 103s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "87217040",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

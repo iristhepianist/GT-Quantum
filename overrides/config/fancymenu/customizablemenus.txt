@@ -1,0 +1,20 @@
+type = customizablemenus
+
+com.feed_the_beast.ftblib.lib.gui.GuiWrapper {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+galaxyspace.core.client.gui.GSGuiMainMenu {
+}
+
+com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+

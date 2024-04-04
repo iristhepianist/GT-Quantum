@@ -1,0 +1,84 @@
+{
+	title: "Water and Steam",
+	x: -1.0d,
+	y: 0.0d,
+	description: "1800s all over again",
+	text: [
+		"to begin making steam, you obviously will need water. Make Primitive pumps to pump water into a solid fuel steam boiler. Check JEI on how to make the pump multiblock."
+	],
+	dependencies: [
+		"ca02d54b"
+	],
+	tasks: [{
+		uid: "9b55243f",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 1648s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "16070e6d",
+		type: "item",
+		items: [{
+			id: "gregtech:steam_casing",
+			Damage: 4s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		count: 10L
+	},
+	{
+		uid: "596ad434",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_block_frame_103",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		count: 10L
+	},
+	{
+		uid: "23a60697",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 1649s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ac316d0b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cd417bbf",
+		type: "item",
+		item: {
+			id: "gregtech:fluid_pipe_tiny",
+			Damage: 260s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "6812e289",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

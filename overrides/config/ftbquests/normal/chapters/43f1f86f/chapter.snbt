@@ -1,0 +1,7 @@
+{
+	title: "Steam",
+	icon: "gregtech:machine 1 1025",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

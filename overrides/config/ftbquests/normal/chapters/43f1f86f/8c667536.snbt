@@ -1,0 +1,21 @@
+{
+	title: "Economy",
+	x: -6.5d,
+	y: -1.5d,
+	description: "money money money",
+	text: [
+		"currency mod for servers, and in general useful multiplayer mod. as this pack was intended for a server, this is also included."
+	],
+	tasks: [{
+		uid: "0acdb7f5",
+		type: "item",
+		items: [{
+			id: "modcurrency:guidebook",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

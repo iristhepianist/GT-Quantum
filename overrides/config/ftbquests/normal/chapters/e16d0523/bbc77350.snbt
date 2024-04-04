@@ -1,0 +1,77 @@
+{
+	x: 6.75d,
+	y: 0.0d,
+	shape: "octagon",
+	dependencies: [
+		"787928b1",
+		"8662f8eb",
+		"137053b2",
+		"0c8710fd",
+		"0a15d72a",
+		"2f94b68b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e2e9a051",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 1001s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "83eaf316",
+		type: "item",
+		item: {
+			id: "hbm:gun_revolver_cursed",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "49b4f033",
+		type: "item",
+		item: {
+			id: "hbm:gun_revolver_cursed_ammo",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 64
+	},
+	{
+		uid: "4249a6b1",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "ff30059f",
+		type: "item",
+		item: {
+			id: "iceandfire:hippocampus_slapper",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "92d76623",
+		type: "item",
+		item: {
+			id: "gregtech:meta_block_compressed_0",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

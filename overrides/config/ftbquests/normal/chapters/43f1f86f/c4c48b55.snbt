@@ -1,0 +1,26 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	text: [
+		"Kill some mobs in the Dustopia dimension."
+	],
+	dependencies: [
+		"d78c9317"
+	],
+	tasks: [{
+		uid: "1fb36aa0",
+		type: "item",
+		items: [{
+			id: "aoa3:darkly_powder",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "7745feef",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Mahou Tsukai",
+	x: 5.0d,
+	y: -1.5d,
+	description: "fate reference?",
+	text: [
+		"congrats, you are now a mahou tsukai! (magic user) this mod has a vast array of different useful spells, that 100% do NOT get overshadowed by tech mods! some of these spells have the most unholy and destructive stuff known to mankind! get started by drawing a mahoujin. Use your dagger by rightclicking and use the keybind for Draw Mahoujin to begin."
+	],
+	dependencies: [
+		"3f7b1c5b"
+	],
+	tasks: [{
+		uid: "2a010fff",
+		type: "item",
+		items: [{
+			id: "mahoutsukai:dagger",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b489b2ac",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4e5b5e31",
+		type: "item",
+		item: {
+			id: "mahoutsukai:guidebook",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

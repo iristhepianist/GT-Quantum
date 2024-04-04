@@ -1,0 +1,22 @@
+{
+	x: -6.5d,
+	y: -0.5d,
+	dependencies: [
+		"8c667536"
+	],
+	tasks: [{
+		uid: "9fb3280e",
+		type: "item",
+		items: [{
+			id: "modcurrency:blockvending",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2fb58fd2",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,47 @@
+{
+	title: "Welcome PT II",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "how did we get here?",
+	text: [
+		"Welcome to the electronic age! now, obviously you would need power. this chapter will be on how to use and get power."
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "e4282caa",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 621s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2faa18a7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c5173d6c",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "02cb64f0",
+		type: "item",
+		item: {
+			id: "hbm:boat",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

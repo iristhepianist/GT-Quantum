@@ -1,0 +1,30 @@
+{
+	x: 3.5d,
+	y: 4.0d,
+	description: "haxxorman12",
+	text: [
+		"Necessary for most gregtech recipes, you need to program it in order for it to work."
+	],
+	dependencies: [
+		"9211b2cf"
+	],
+	tasks: [{
+		uid: "f9be3787",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cd02b80e",
+		type: "xp",
+		xp: 100
+	}]
+}

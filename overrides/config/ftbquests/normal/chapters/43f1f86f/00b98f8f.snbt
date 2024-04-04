@@ -1,0 +1,39 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	description: "steel.",
+	text: [
+		"BBB, for steel."
+	],
+	dependencies: [
+		"ca02d54b"
+	],
+	tasks: [{
+		uid: "c0fb30c4",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 1017s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "724b1ba3",
+		type: "item",
+		items: [{
+			id: "gregtech:metal_casing",
+			Damage: 8s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		count: 25L
+	}],
+	rewards: [{
+		uid: "fe8876a5",
+		type: "xp",
+		xp: 100
+	}]
+}

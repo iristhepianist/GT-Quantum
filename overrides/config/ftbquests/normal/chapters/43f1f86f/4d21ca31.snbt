@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	dependencies: [
+		"8c92b7a9",
+		"3e8888e7"
+	],
+	tasks: [{
+		uid: "e75c20d9",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_dust",
+			Damage: 1002s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

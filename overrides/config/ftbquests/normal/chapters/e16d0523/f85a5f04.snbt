@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: -0.5d,
+	dependencies: [
+		"7399310d"
+	],
+	tasks: [{
+		uid: "3770d4f2",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:rocket_workbench",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

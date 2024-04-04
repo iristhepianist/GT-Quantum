@@ -1,0 +1,48 @@
+{
+	title: "Vampire Hunter",
+	x: -2.0d,
+	y: 0.0d,
+	text: [
+		"alternatively you can become a vampire hunter, and hunt vampires down. You will be immune to their bite after you take the injection."
+	],
+	dependencies: [
+		"33793fd3"
+	],
+	tasks: [{
+		uid: "41e4667f",
+		type: "checkmark",
+		icon: {
+			id: "vampirism:injection",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "c34aebe6",
+		type: "item",
+		item: {
+			id: "vampirism:injection",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "414d76e6",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "021a8be7",
+		type: "item",
+		item: {
+			id: "vampirism:item_med_chair",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	description: "RUBBAH!!!!",
+	text: [
+		"Combine the sulfur and pulp in an alloy smelter, (preferably steam) and then... REJOICE!! YOU HAVE ACQUIRED RUBBER!"
+	],
+	dependencies: [
+		"3e8888e7",
+		"09c8516b"
+	],
+	tasks: [{
+		uid: "eeff68b6",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_ingot",
+			Damage: 1068s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

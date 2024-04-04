@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 0.0d,
+	dependencies: [
+		"9ad0d8c6"
+	],
+	tasks: [{
+		uid: "0906fcff",
+		type: "item",
+		items: [{
+			id: "mahoutsukai:powdered_ender",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4bd88550",
+		type: "xp",
+		xp: 100
+	}]
+}

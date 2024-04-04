@@ -1,0 +1,32 @@
+{
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		"use some Nightmare Flakes, on Elusive. sounds cryptic but basically use the item dropped by Abyss mobs, on the Boss Elusive which is summoned by using a staring eye on an Illusion Altar."
+	],
+	dependencies: [
+		"6c704710"
+	],
+	tasks: [{
+		uid: "61179f5a",
+		type: "item",
+		items: [{
+			id: "aoa3:greckon_realmstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a49d4529",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fe9c276d",
+		type: "choice",
+		table: 0
+	}]
+}

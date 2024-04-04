@@ -1,0 +1,35 @@
+{
+	title: "Vampirism",
+	icon: {
+		id: "vampirism:vampire_fang",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: -3.0d,
+	y: -1.5d,
+	description: "dirty your blood with that of a vampire..",
+	text: [
+		"Using the Vampire Fang will infect you with Sanguinare. A day later, and you're a vampire! collect blood bottles and use them in a Blood Altar to level up. Though in later stages, you will have to do some.. UNSPEAKABLE stuff."
+	],
+	tasks: [{
+		uid: "47a0ad9e",
+		type: "checkmark",
+		title: "Dirty your blood..."
+	}],
+	rewards: [{
+		uid: "0eb9dc8e",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "24c84477",
+		type: "item",
+		item: {
+			id: "guideapi:vampirism-guide",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

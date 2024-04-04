@@ -1,0 +1,17 @@
+{
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"these blocks are necessary for most LV multiblocks so far. you should make them if you want to use any type of multiblock."
+	],
+	tasks: [{
+		uid: "e57dc41b",
+		type: "checkmark",
+		title: "Multiblock Necessities"
+	}],
+	rewards: [{
+		uid: "a98c429a",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

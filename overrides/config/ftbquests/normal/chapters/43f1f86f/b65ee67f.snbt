@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: 2.0d,
+	dependencies: [
+		"eaa4f963"
+	],
+	tasks: [{
+		uid: "bfdcbf31",
+		type: "item",
+		items: [{
+			id: "vampirism:blood_infused_enhanced_iron_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

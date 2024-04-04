@@ -1,0 +1,79 @@
+{
+	x: 13.0d,
+	y: 0.5d,
+	dependencies: [
+		"7399310d"
+	],
+	tasks: [{
+		uid: "84482b3f",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:collector",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "5eb7b06d",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:oxygen_mask",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "3008318f",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:oxygen_gear",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "972b6c80",
+		type: "item",
+		items: [{
+			id: "galacticraftcore:oxygen_compressor",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f3fbc2ba",
+		type: "item",
+		item: {
+			id: "hbm:cladding_lead",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "1bd99b87",
+		type: "item",
+		item: {
+			id: "hbm:canned_kerosene",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "6122be75",
+		type: "item",
+		item: {
+			id: "galacticraftcore:oxygen_tank_light_full",
+			Damage: 900s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

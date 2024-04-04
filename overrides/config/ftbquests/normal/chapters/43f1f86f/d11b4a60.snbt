@@ -1,0 +1,108 @@
+{
+	title: "High Pressure",
+	x: 1.5d,
+	y: 2.25d,
+	shape: "square",
+	description: "under pressure (dun da dun da du da du)",
+	text: [
+		"you can optionally make high-pressure steam machines, which are generally more effecient but use more steam. I'd recommend you make some."
+	],
+	dependencies: [
+		"00b98f8f",
+		"3e8888e7"
+	],
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "02469e81",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 2s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "ed059dbd",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 8s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "49d6dfa3",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 10s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "fb5eba33",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 14s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	},
+	{
+		uid: "b94f98a9",
+		type: "item",
+		items: [{
+			id: "gregtech:machine",
+			Damage: 12s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "368eb51b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "16b8fd98",
+		type: "item",
+		item: {
+			id: "thermalfoundation:material",
+			Damage: 322s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 12
+	},
+	{
+		uid: "454ad862",
+		type: "item",
+		item: {
+			id: "cyclicmagic:heart_food",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "3c4f8480",
+		type: "item",
+		item: {
+			id: "cyclicmagic:tool_warp_home",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

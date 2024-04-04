@@ -1,0 +1,22 @@
+{
+	title: "AE2",
+	x: -3.5d,
+	y: 0.0d,
+	description: "Ae2 moment???",
+	text: [
+		"AE2 in this pack is in the Electronic Age. use your LV circuits to begin making your very own ME system!"
+	],
+	dependencies: [
+		"9211b2cf"
+	],
+	tasks: [{
+		uid: "6f793af0",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:inscriber",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

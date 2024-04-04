@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "vampirism:vampire_fang",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"33793fd3"
+	],
+	tasks: [{
+		uid: "b0f8aa63",
+		type: "checkmark",
+		title: "Vampire"
+	}],
+	rewards: [{
+		uid: "a9efcdd5",
+		type: "item",
+		item: {
+			id: "vampirism:vampire_fang",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "8c5a527f",
+		type: "xp",
+		xp: 100
+	}]
+}

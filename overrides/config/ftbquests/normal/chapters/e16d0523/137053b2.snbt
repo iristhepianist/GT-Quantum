@@ -1,0 +1,27 @@
+{
+	title: "Heating",
+	x: 1.0d,
+	y: 5.5d,
+	description: "cOILY",
+	text: [
+		"coils are the main heating source for an EBF. they go up all the way to titranium (i think that's how u say that) make some Cupronickel ones to begin with."
+	],
+	dependencies: [
+		"9e87e6e3"
+	],
+	tasks: [{
+		uid: "05c7ca28",
+		type: "item",
+		items: [{
+			id: "gregtech:wire_coil",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "695aed41",
+		type: "xp",
+		xp: 100
+	}]
+}

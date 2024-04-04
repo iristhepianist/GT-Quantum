@@ -1,0 +1,45 @@
+{
+	title: "Surviving, But Better",
+	x: 3.0d,
+	y: 1.0d,
+	description: "mmm rlcraft is ok now",
+	text: [
+		"Now that you have access to a reliable RF source, you can make these useful items that will help you survive the Tough As Nails mod."
+	],
+	dependencies: [
+		"9211b2cf"
+	],
+	tasks: [{
+		uid: "9cc53b2b",
+		type: "item",
+		items: [{
+			id: "tanaddons:thirst_quencher",
+			tag: {
+				FluidStored: 0,
+				TimeStart: 100,
+				ForgeEnergy: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "343ceff8",
+		type: "item",
+		items: [{
+			id: "tanaddons:portable_temp_regulator",
+			tag: {
+				TimeStart: 100,
+				ForgeEnergy: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}
